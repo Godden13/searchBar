@@ -1,5 +1,5 @@
-const nameSearch = document.querySelector(".nameSearch");
-const userInfo = document.querySelector(".userInfo");
+const nameSearch = document.querySelector(".name-search");
+const userInfo = document.querySelector(".user-info");
 
 function displayUser({name, age}){
   return `<div class = "userInfo>
