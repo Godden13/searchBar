@@ -10,7 +10,7 @@ body {
 
 .project {
   width: 30%;
-  height: 200px;
+  height: fit-content;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -23,8 +23,10 @@ body {
 
 .user-info {
   width: 50%;
-  height: 100px;
-  overflow: auto;
   margin-top: 20px;
   margin-bottom: 10px;
+}
+
+.dp {
+  display: flex;
 }
